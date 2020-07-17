@@ -6,10 +6,10 @@ $CFG = new stdClass();
 
 $CFG->dbtype    = getenv('psql');
 $CFG->dblibrary = 'native';
-$CFG->dbhost    = getenv('ec2-3-215-83-17.compute-1.amazonaws.com');
-$CFG->dbname    = getenv('devscfca42dbt');
-$CFG->dbuser    = getenv('pvdkapietrljpa');
-$CFG->dbpass    = getenv('674ef7246388066e5359fd4ea35475b09d9aec932b06d631c3e4e42e5ca71388');
+$CFG->dbhost    = getenv('ec2-50-19-26-235.compute-1.amazonaws.com');
+$CFG->dbname    = getenv('db0ickl8j6raeh');
+$CFG->dbuser    = getenv('qocdypjuvdyyhm');
+$CFG->dbpass    = getenv('1be77f5ddad4c8f157e1aa554d953cb8447ed8232e7247a460296f11819c8f0a');
 $CFG->prefix    = 'mdl_';
 $CFG->dboptions = array (
   'dbpersist' => 0,
@@ -17,8 +17,8 @@ $CFG->dboptions = array (
   'dbsocket' => '',
 );
 
-$CFG->wwwroot   = getenv('http://moodlekm.herokuapp.com/');
-$CFG->dataroot  = getenv('postgres://pvdkapietrljpa:674ef7246388066e5359fd4ea35475b09d9aec932b06d631c3e4e42e5ca71388@ec2-3-215-83-17.compute-1.amazonaws.com:5432/devscfca42dbt');
+$CFG->wwwroot   = getenv('http://moodlek.herokuapp.com/');
+$CFG->dataroot  = getenv('postgres://qocdypjuvdyyhm:1be77f5ddad4c8f157e1aa554d953cb8447ed8232e7247a460296f11819c8f0a@ec2-50-19-26-235.compute-1.amazonaws.com:5432/db0ickl8j6raeh');
 $CFG->admin     = 'admin';
 
 $CFG->directorypermissions = 0777;
