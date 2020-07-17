@@ -18,7 +18,7 @@ $CFG->dboptions = array (
 );
 
 $CFG->wwwroot   = getenv('http://moodlek.herokuapp.com/');
-$CFG->dataroot  = getenv('postgres://qocdypjuvdyyhm:1be77f5ddad4c8f157e1aa554d953cb8447ed8232e7247a460296f11819c8f0a@ec2-50-19-26-235.compute-1.amazonaws.com:5432/db0ickl8j6raeh');
+$CFG->dataroot  = getenv('try /tmp');
 $CFG->admin     = 'admin';
 
 $CFG->directorypermissions = 0777;
